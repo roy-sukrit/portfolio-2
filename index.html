@@ -10,6 +10,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
     </style>
+    
   <title>Sukrit | Web Developer</title>
   <!--
 Reflux Template
@@ -38,11 +39,11 @@ https://templatemo.com/tm-531-reflux
           </div>
           <div class="author-content">
 
-            <h4 style="font-family:'Roboto', sans-serif;">Hi ,I am Sukrit Roy Chowdhury</h4>
+            <h4 style="font-family:'Roboto', sans-serif;">Hi , I am Sukrit Roy Chowdhury</h4>
             <hr>
             <span>
-              <h5>Aspiring Full Stack Developer</h5>
-              <h3><a href="https://drive.google.com/file/d/1zYNkdQLWDN4YwNvSlJLF8MMmH7V1Ck7N/view?usp=sharing" target="_blank">My Resume</a></h3>
+              <h5 style="font-family:'Roboto', sans-serif;">Aspiring Full Stack Developer</h5>
+              <h3 style="font-family:'Roboto', sans-serif;"><a href="https://drive.google.com/file/d/1zYNkdQLWDN4YwNvSlJLF8MMmH7V1Ck7N/view?usp=sharing" target="_blank">My Resume</a></h3>
             </span>
           </div>
           <nav class="main-nav" role="navigation">
@@ -90,12 +91,17 @@ https://templatemo.com/tm-531-reflux
         <div class="section-heading">
           <h2>My Projects</h2>
           <div class="line-dec"></div>
-          <span>Currently I am working with Django and Javascript to create data driven web apps and deploying in
-            Heroku</span>
+          <span style="font-size: larger; ">Currently I am working with Django and Javascript to create data driven web apps and deploying in
+            Heroku.</span>
+           
+            <div class="arrow bounce">
+              <a class="fa fa-arrow-down fa-2x" href="#projects" >View</a>
+            </div>
+          
         </div>
 
 
-        <div class="left-image-post">
+        <div class="left-image-post" id="projects">
           <div class="row">
             <div class="col-md-6">
               <div class="left-image">
@@ -109,7 +115,7 @@ https://templatemo.com/tm-531-reflux
                   </u> </h2>
                 <p>
                 <h4>Description-</h4>
-                <ol>
+                <ol style="font-size: larger; ">
                   <li>Authentication System with password reset - Django.</li>
                   <li>Admin Dashboard for status of all the orders of users.</li>
                   <li>Customers can view the status in real time.</li>
@@ -137,8 +143,8 @@ https://templatemo.com/tm-531-reflux
                 <h2><u><b>Logo Website Clone</b></u></h2>
                 <p>
                 <h4>Description-</h4>
-                <ol>
-                  <li>Web Scraping of all images using Python.</li>
+                <ol style="font-size: larger; " >
+                  <li >Web Scraping of all images of a logo website using Python.</li>
                   <li>CSV file storing the file name and logo name using Pandas lib.</li>
                   <li>Uploading CSV to the databse and referencing logos as pointers.</li>
                   <li>Only a base HTML page used rest are loaded dynamically on request.</li>
@@ -175,7 +181,7 @@ https://templatemo.com/tm-531-reflux
                 <h2><u><b>Product Website</b></u></h2>
                 <p>
                 <h4>Description-</h4>
-                <ol>
+                <ol style="font-size: larger; ">
                   <li>Using Unslplash to dynamically load images</li>
                   <li>Feedback Page using Django Forms</li>
                   <li>Data is dynamically stored in database.</li>
@@ -282,6 +288,36 @@ https://templatemo.com/tm-531-reflux
   </div>
 
   <!-- Scripts -->
+  <style>
+   
+    /* @bg: #2d2d37;  */
+/* @primary: #fd6b21;  */
+
+body { background: #2d2d37;}
+a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+  </style>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -339,7 +375,7 @@ https://templatemo.com/tm-531-reflux
     $(window).scroll(function () {
       checkSection();
     });
-  </script>
+  // </script>
 </body>
 
 </html>
