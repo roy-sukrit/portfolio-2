@@ -53,8 +53,8 @@ const ProjectsList = [
       "Future plans: Migrate project to NextJS framework.",
     ],
     media: <ProjectImage src={SrcPortfolio} alt="Portfolio" />,
-    live: null,
-    repo: "https://github.com/faraz16iqbal/portfolio-v1",
+    live: "https://roy-sukrit.github.io/",
+    repo: "https://github.com/roy-sukrit/roy-sukrit.github.io",
   },
 ];
 
