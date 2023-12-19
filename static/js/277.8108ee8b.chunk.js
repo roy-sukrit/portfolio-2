@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_v1=self.webpackChunkportfolio_v1||[]).push([[277],{4568:function(e,o,r){r.r(o),r.d(o,{default:function(){return l}});var t=r(3790),c=r.p+"static/media/src_profile.ff63ed2c92e81d1eca36.jpg",a=r(184),l=function(){return(0,a.jsx)(t.E,{mx:"auto",borderRadius:"full",objectFit:"cover",boxSize:{base:"160px",sm:"240px",md:"300px",lg:"320px",xl:"400px"},src:c,fallbackSrc:"https://via.placeholder.com/500",alt:"Sukrit Roy Chowdhury"})}}}]);
+//# sourceMappingURL=277.8108ee8b.chunk.js.map
