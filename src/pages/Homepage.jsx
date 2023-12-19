@@ -61,7 +61,7 @@ const Homepage = () => {
                Experienced Backend Developer adept at crafting efficient server-side solutions with Node.js. Eager to explore the nuances of backend development with fellow enthusiasts.</Body>
               <PrimaryButton
                 as="a"
-                href="mailto:faraziqbal2001@gmail.com"
+                href="mailto:roysukrit78@gmail.com"
                 theme={secondary}
                 mt={4}
               >
